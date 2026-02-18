@@ -100,6 +100,7 @@ li {
 /* ===== Menu Box (Index) ===== */
 #menu {
   max-width: 800px;
+  width: 100%;
   background-color: var(--bg-secondary);
   border: 1px solid var(--text-color);
   border-radius: 6px;
@@ -141,6 +142,7 @@ a:hover::after {
 
 #contact {
   max-width: 800px; /* come #intro */
+  width: 100%;
   margin: 2rem auto; /* margine verticale e centratura orizzontale */
   padding: 0;
   box-sizing: border-box;
@@ -149,6 +151,7 @@ a:hover::after {
 /* ===== Form ===== */
 form {
   max-width: 800px;
+  width: 100%;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
@@ -158,6 +161,7 @@ form {
   border: 1px solid var(--text-color);
   border-radius: 6px;
   box-shadow: 0 0 10px var(--shadow-strong);
+  box-sizing: border-box;
 }
 
 form h2 {
@@ -220,6 +224,8 @@ form button:hover {
   padding: 2rem;
   margin: 1rem auto 2rem;
   max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
   font-size: 1.1rem;
   line-height: 1.7;
   color: var(--text-color);
