@@ -97,6 +97,19 @@ li {
   background-color: var(--bg-secondary);
 }
 
+/* ===== Menu Box (Index) ===== */
+#menu {
+  max-width: 800px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--text-color);
+  border-radius: 6px;
+  padding: 2rem;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px var(--shadow-strong);
+  box-sizing: border-box;
+  text-align: center;
+}
+
 /* ===== Link ===== */
 a {
   color: var(--text-color);
@@ -129,7 +142,7 @@ a:hover::after {
 #contact {
   max-width: 800px; /* come #intro */
   margin: 2rem auto; /* margine verticale e centratura orizzontale */
-  padding: 0 1rem; /* un po’ di padding laterale per spaziatura interna */
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -204,7 +217,7 @@ form button:hover {
   background-color: var(--bg-secondary);
   border: 1px solid var(--text-color);
   border-radius: 6px;
-  padding: 1rem 1.5rem;
+  padding: 2rem;
   margin: 1rem auto 2rem;
   max-width: 800px;
   font-size: 1.1rem;
