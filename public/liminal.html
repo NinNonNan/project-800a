@@ -8,14 +8,14 @@
     <!-- Barra indirizzi mobile -->
   <meta name="theme-color" content="#000000" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <title></title>
+  <title>NEON SYSTEM FAILURE - PROJECT:800a</title>
 </head>
 <body>
   <header>
     NEON SYSTEM FAILURE
   </header>
   <div id="content" class="flicker"><!-- 🔹 Serve per calcolare il padding -->    
-    <div id="intro">
+    <div class="intro">
       <p>
         Benvenuto nell'area di test del sistema. Questo è un paragrafo introduttivo in cui si osservano
         comportamenti anomali nel circuito d'illuminazione. Tutto il sistema sembra rispondere con
@@ -45,7 +45,10 @@
 
   <div id="footer-disclaimer">
     ⚠️ Questo è un sistema simulato. Le luci a neon stanno malfunzionando.
-    <button id="footer-close-btn" onclick="this.parentElement.style.display='none'">×</button>
+    <button id="footer-close-btn" aria-label="Chiudi avviso">×</button>
   </div>
+  <script>
+    document.getElementById('footer-close-btn').addEventListener('click', function() { this.parentElement.style.display = 'none'; });
+  </script>
 </body>
 </html>

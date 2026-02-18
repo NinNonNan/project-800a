@@ -195,7 +195,7 @@ form button:hover {
 }
 
 /* ===== Intro block ===== */
-#intro {
+.intro {
   background-color: var(--bg-secondary);
   border: 1px solid var(--text-color);
   border-radius: 6px;
