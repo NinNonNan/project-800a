@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#000000" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <title>Home - PROJECT:800a</title>
+  <!-- Script caricati con 'defer' per non bloccare il rendering iniziale della pagina -->
   <script src="js/glitch-title.js" defer></script>
   <script src="js/menu-loader.js" defer></script>
   <script src="js/footer-loader.js" defer></script>
@@ -27,10 +28,12 @@
       <p>La struttura e il contenuto di queste informazioni – così come dell’intero archivio – possono essere soggetti a mutamenti, percepibili o meno. Chi opera come agente nel contesto del progetto è ben consapevole di quanto le realtà possano essere instabili.</p>
     </div>
 
+    <!-- Il menu viene popolato dinamicamente da js/menu-loader.js -->
     <ul id="menu">
       <li>Caricamento menu...</li>
     </ul>
 
+    <!-- Form configurato per Netlify Forms: l'attributo 'data-netlify="true"' attiva il backend automatico -->
     <section id="contact">
       <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
         <h2>Contatto</h2>
@@ -49,6 +52,7 @@
       </form>
     </section>
   </div>
+  <!-- Placeholder per il footer caricato dinamicamente -->
   <div id="footer-placeholder"></div>
 </body>
 </html>

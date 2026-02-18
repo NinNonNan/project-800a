@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Pagina "Liminal": simula un errore di sistema con effetti visivi CSS (flicker/buzzing) -->
 <html lang="it">
 <head>
   <link rel="stylesheet" href="css/style.css">
@@ -47,6 +48,7 @@
     ⚠️ Questo è un sistema simulato. Le luci a neon stanno malfunzionando.
     <button id="footer-close-btn" aria-label="Chiudi avviso">×</button>
   </div>
+  <!-- Gestione semplice della chiusura del footer di avviso -->
   <script>
     document.getElementById('footer-close-btn').addEventListener('click', function() { this.parentElement.style.display = 'none'; });
   </script>
